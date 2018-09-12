@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*, html, body {
+  font-family: roboto;
+}
+
+.info {
+  height: 100% !important;
+  width: 5em !important;
+  background: #ff5252 !important;
+  color: #fff !important;
+  text-align: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: absolute !important;
+  z-index: 9999 !important;
+  border-radius: 50px !important;
+}
+
+.info:hover {
+  cursor: ew-resize !important;
+  box-shadow: 0px 10px 10px -10px #333 !important;
+}
+
+.stage {
+  height: 100%;
+  width: 100%;
+  background: #f2f2f2;
+  margin: 10px;
+}
